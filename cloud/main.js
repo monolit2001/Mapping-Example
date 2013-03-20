@@ -1,6 +1,6 @@
 function getPlacemarks() {
-  var lat = 'undefined' !== typeof $params.lat ? $params.lat : 52.88,
-      lon = 'undefined' !== typeof $params.lon ? $params.lon : -7.96;
+  var lat = 'undefined' !== typeof $params.lat ? $params.lat : -33.409828,
+      lon = 'undefined' !== typeof $params.lon ? $params.lon : -70.567769;
   
   // Add the passed in location to a points array
   var points = [{lat: lat, lon: lon, title: 'My Placemark!'}];
